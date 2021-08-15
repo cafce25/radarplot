@@ -1,0 +1,56 @@
+[Radar]
+Orientation=0
+Range=4
+Heading=true
+[Own Ship]
+Course=90
+Speed=10.0
+[Opponent B]
+Time(0)=600
+SideBearing(0)=true
+RaSP(0)=40
+CourseSP(0)=90
+RaKrP(0)=130
+Distance(0)=8.0
+Time(1)=630
+SideBearing(1)=true
+RaSP(1)=40
+CourseSP(1)=90
+RaKrP(1)=130
+Distance(1)=4.0
+[Opponent C]
+Time(0)=0
+SideBearing(0)=true
+RaSP(0)=0
+CourseSP(0)=90
+RaKrP(0)=90
+Distance(0)=0.0
+Time(1)=0
+SideBearing(1)=true
+RaSP(1)=0
+CourseSP(1)=90
+RaKrP(1)=90
+Distance(1)=0.0
+[Opponent D]
+Time(0)=0
+SideBearing(0)=true
+RaSP(0)=0
+CourseSP(0)=90
+RaKrP(0)=90
+Distance(0)=0.0
+Time(1)=0
+SideBearing(1)=true
+RaSP(1)=0
+CourseSP(1)=90
+RaKrP(1)=90
+Distance(1)=0.0
+[Maneuver]
+Target=0
+ByTime=true
+Time=630
+Distance=4.0
+Type=0
+ByCPA=true
+CPA=4.0
+Course=221.9
+Speed=10.0

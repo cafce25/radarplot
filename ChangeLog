@@ -1,0 +1,89 @@
+2004/12/17:
+
+	- Radar Range SpinButton: Stop timer based update (single-step).
+	- add_time(): Wrap around midnight correctly for negative offsets.
+	- New Course SpinButton: Show one addition digit (tenth of degree).
+ 
+2004/12/18:
+
+	- Don't allow course changes of more than 180 degrees.
+	- Add cvs date to about dialog.
+
+2004/12/20:
+
+	- Add Reset Menuitem to clear all user inputs.
+	- Add CPA from course/speed change calculation.
+	- Add speed change from CPA calculation.
+
+2004/12/21:
+
+	- Keep RaKrP constant when course changes.
+
+2004/12/28:
+
+	- Add Xrender or fallback antialias support.
+
+2004/12/30:
+
+	- Clear all user input from file->new menuitem.
+	- Add open/save/saveas support for radarplot data.
+
+2004/12/31:
+
+	- Small fixes to file->new: clear mtime_set/mdist_set flags.
+	- Add optional filename arg to open plotfile from command line.
+
+2005/01/02:
+
+	- Calculate maximum possible CPA if selected CPA can't be
+	  reached by course or speed change.
+
+2005/01/03:
+
+	- New SPCPA depends on new course, not old course.
+
+2005/01/05:
+
+	- Add export funtions to store plot as JPEG or PNG image.
+	- Speed up fallback rendering code significantly.
+
+2005/01/06:
+
+	- Add vector pre-clip and outside trapezoid removal.
+
+2005/04/17:
+
+	- Allow read of DOS \r\n terminated radarplot files.
+	- Fix e-mail address and URL.
+
+2005/04/22:
+
+	- Add PDF output.
+
+2005/09/17:
+
+	- Add License support.
+
+2005/09/19:
+
+	- Add RaSP output after maneuver.
+	- Print KA or vA after maneuver when goal can't be met.
+	- Mark KA, vA and CPA with (!) in PDF when goal can't be met.
+
+2005/10/01:
+
+	- Add support for multiple targets.
+
+2005/10/02:
+
+	- Calculate bearing of Bow Crossing, set negative sign for
+	  crossing behind us.
+	- Show new heading line in plot, if enabled.
+
+2005/10/15:
+
+	- Add text labels to observations in plot.
+
+2005/10/16:
+
+	- Add feedback for register dialog.

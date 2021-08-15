@@ -1,0 +1,883 @@
+# German Radarplot translation.
+# Copyright (C) 2005 brainaid GbR
+# Eddie C. Dost <ecd@brainaid.de>, 2005.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Radarplot 2.0.0\n"
+"Report-Msgid-Bugs-To: ecd@brainaid.de\n"
+"POT-Creation-Date: 2017-01-31 10:30+0100\n"
+"PO-Revision-Date: 2005-12-19 09:28+0100\n"
+"Last-Translator: Eddie C. Dost <ecd@brainaid.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: radar.c:209
+msgid "translator-credits"
+msgstr "Christian \"Eddie\" Dost <ecd@brainaid.de>"
+
+#: radar.c:290
+msgid "Radarplot Files"
+msgstr "Radarplot Dateien"
+
+#: radar.c:296 register.c:710
+msgid "All Files"
+msgstr "Alle Dateien"
+
+#: radar.c:712 radar.c:996
+msgid "Load radarplot from file"
+msgstr "Radarplot aus Datei laden"
+
+#: radar.c:872 radar.c:1001 radar.c:1006
+msgid "Save radarplot to file"
+msgstr "Radarplot in Datei speichern"
+
+#: radar.c:985
+msgid "_File"
+msgstr "_Datei"
+
+#: radar.c:989
+msgid "_New"
+msgstr "_Neu"
+
+#: radar.c:990
+msgid "Start new radarplot"
+msgstr "Neuen Radarplot beginnen"
+
+#: radar.c:995
+msgid "_Open..."
+msgstr "Ö_ffnen..."
+
+#: radar.c:1000
+msgid "_Save..."
+msgstr "_Speichern..."
+
+#: radar.c:1005
+msgid "Save _as..."
+msgstr "Speichern _unter..."
+
+#: radar.c:1011
+msgid "E_xport as"
+msgstr "E_xportieren als"
+
+#: radar.c:1015
+msgid "_JPEG Image"
+msgstr "_JPEG Grafik"
+
+#: radar.c:1016
+msgid "Save radarplot as JPEG image"
+msgstr "Radarplot als JPEG Grafik speichern"
+
+#: radar.c:1020
+msgid "_PNG Image"
+msgstr "_PNG Grafik"
+
+#: radar.c:1021
+msgid "Save radarplot as PNG image"
+msgstr "Radarplot als PNG Graphic speichern"
+
+#: radar.c:1026
+msgid "_Print as PDF"
+msgstr "_Druchen als PDF"
+
+#: radar.c:1027
+msgid "Print radarplot to PDF file"
+msgstr "Radarplot in PDF Datei drucken"
+
+#: radar.c:1032
+msgid "_Exit"
+msgstr "Be_enden"
+
+#: radar.c:1033
+msgid "Exit from radarplot program"
+msgstr "Radarplot Programm beenden"
+
+#: radar.c:1038
+msgid "_Preferences"
+msgstr "_Einstellungen"
+
+#: radar.c:1042
+msgid "E_xtra"
+msgstr "E_xtra"
+
+#: radar.c:1046
+msgid "_Register"
+msgstr "_Registrierung"
+
+#: radar.c:1047
+msgid "Register radarplot program"
+msgstr "Radarplot Programm registrieren"
+
+#: radar.c:1051
+msgid "Configure _License"
+msgstr "_Lizenz einrichten"
+
+#: radar.c:1052
+msgid "Configure radarplot license file"
+msgstr "Radarplot Lizenzdatei einrichten"
+
+#: radar.c:1057
+msgid "_Help"
+msgstr "_Hilfe"
+
+#: radar.c:1061
+msgid "_About Radarplot"
+msgstr "_Info zu Radarplot"
+
+#: radar.c:1062
+msgid "Information about radarplot program"
+msgstr "Informationen zum Radarplot Programm"
+
+#: radar.c:1071 radar.c:6320
+msgid "Show Heading Line"
+msgstr "Zeige Kursline"
+
+#: radar.c:1072
+msgid "Display Heading Line in radarplot"
+msgstr "Kurslinie in Radarplot anzeigen"
+
+#: radar.c:1077
+msgid "True Bearings"
+msgstr "Peilungen sind RaKrP"
+
+#: radar.c:1078
+msgid "Default entries are True Bearings"
+msgstr "Standard ist die Eingabe von Radar-Kreiselpeilungen"
+
+#: radar.c:1083
+msgid "Antialias"
+msgstr "Antialias"
+
+#: radar.c:1084
+msgid "Draw vectors using antialiasing filter"
+msgstr "Zeichne Vektoren mit Antialiasing-Filter"
+
+#: radar.c:5318
+msgid "North Stabilized or Head Up Display"
+msgstr "Nordstabilisierte oder Recht-Voraus Anzeige"
+
+#: radar.c:5337
+msgid "Target for Maneuver Calculations"
+msgstr "Gegner für Manöverberechnungen"
+
+#: radar.c:5355
+msgid "Course or Speed Change"
+msgstr "Kurs- oder Fahrtänderung"
+
+#: radar.c:5624 radar.c:6441
+#, c-format
+msgid "Target %c"
+msgstr "Gegner %c"
+
+#: radar.c:5630 print.c:192
+msgid "Observations"
+msgstr "Beobachtungen"
+
+#: radar.c:5645 radar.c:5804 radar.c:6455
+msgid "Time:"
+msgstr "Zeit:"
+
+#: radar.c:5661
+msgid "1. Time of Observation"
+msgstr "1. Beobachtungszeit"
+
+#: radar.c:5667 radar.c:5826 radar.c:6042
+msgid "R BRG:"
+msgstr "RaSP:"
+
+#: radar.c:5693 radar.c:5699
+msgid "1. Relative Bearing to Target"
+msgstr "1. Radar-Seitenpeilung zum Gegner"
+
+#: radar.c:5705 radar.c:5864
+msgid "at T HDG:"
+msgstr "bei rwK:"
+
+#: radar.c:5723 radar.c:5730
+msgid "Own Ships Heading at 1. Relative Bearing"
+msgstr "Anliegender Kurs bei 1. Radar-Seitenpeilung"
+
+#: radar.c:5737 radar.c:5896
+msgid "T BRG:"
+msgstr "RaKrP (rwP):"
+
+#: radar.c:5756 radar.c:5763
+msgid "1. True Bearing to Target"
+msgstr "1. Radar-Kreiselpeilung zum Gegner"
+
+#: radar.c:5769 radar.c:5928 radar.c:6491
+msgid "Distance:"
+msgstr "Abstand:"
+
+#: radar.c:5786
+msgid "1. Distance to Target in Nautical Miles"
+msgstr "1. Abstand zum Gegner in Seemeilen"
+
+#: radar.c:5820
+msgid "2. Time of Observation"
+msgstr "2. Beobachtungszeit"
+
+#: radar.c:5852 radar.c:5858
+msgid "2. Relative Bearing to Target"
+msgstr "2. Radar-Seitenpeilung zum Gegner"
+
+#: radar.c:5882 radar.c:5889
+msgid "Own Ships Heading at 2. Relative Bearing"
+msgstr "Anliegender Kurs bei 2. Radar-Seitenpeilung"
+
+#: radar.c:5915 radar.c:5922
+msgid "2. True Bearing to Target"
+msgstr "2. Radar-Kreiselpeilung zum Gegner"
+
+#: radar.c:5945
+msgid "2. Distance to Target in Nautical Miles"
+msgstr "2. Abstand zum Gegner in Seemeilen"
+
+#: radar.c:5952 print.c:217
+msgid "Completed Data"
+msgstr "Lage"
+
+#: radar.c:5966 radar.c:6030
+#, c-format
+msgid "DRM %c:"
+msgstr "K%cr:"
+
+#: radar.c:5968 radar.c:6032
+#, c-format
+msgid "Direction of Relative Motion of %c"
+msgstr "Relativer Kurs von %c"
+
+#: radar.c:5970 radar.c:6034
+#, c-format
+msgid "SRM %c:"
+msgstr "v%cr:"
+
+#: radar.c:5972 radar.c:6036
+#, c-format
+msgid "Speed of Relative Motion of %c"
+msgstr "Relative Geschwindigkeit von %c"
+
+#: radar.c:5974
+#, c-format
+msgid "T CRS %c:"
+msgstr "K%c:"
+
+#: radar.c:5976
+#, c-format
+msgid "True Course of %c"
+msgstr "Rechtweisender Kurs von %c"
+
+#: radar.c:5978
+#, c-format
+msgid "T SPD %c:"
+msgstr "v%c:"
+
+#: radar.c:5980
+#, c-format
+msgid "True Speed of %c"
+msgstr "Fahrt durchs Wasser von %c"
+
+#: radar.c:5982 radar.c:6046
+#, c-format
+msgid "Aspect %c:"
+msgstr "Aspekt:"
+
+#: radar.c:5984 radar.c:6048
+#, c-format
+msgid "Aspect Angle (Relative Bearing to Own Ship from Target %c)"
+msgstr "Seitenpeilung vom Gegner %c zum eigenen Schiff (Aspect Angle)"
+
+#: radar.c:5986 radar.c:6050 radar.c:6559
+msgid "CPA:"
+msgstr "CPA:"
+
+#: radar.c:5988 radar.c:6052
+msgid "Range at Closest Point of Approach"
+msgstr "Kleinste Annäherung (Closest Point of Approach)"
+
+#: radar.c:5990 radar.c:6054
+msgid "T BRG CPA:"
+msgstr "PCPA:"
+
+#: radar.c:5992 radar.c:6056
+msgid "True Bearing at CPA"
+msgstr "Radarkreiselpeilung zum Gegner beim CPA"
+
+#: radar.c:5994 radar.c:6058
+msgid "R BRG CPA:"
+msgstr "SPCPA:"
+
+#: radar.c:5996 radar.c:6060
+msgid "Relative Bearing at CPA"
+msgstr "Seitenpeilung zum Gegner beim CPA"
+
+#: radar.c:5998 radar.c:6062
+msgid "TCPA:"
+msgstr "TCPA:"
+
+#: radar.c:6000 radar.c:6064
+msgid "Time to CPA in Minutes"
+msgstr "Zeit bis zum CPA in Minuten"
+
+#: radar.c:6004 radar.c:6068
+msgid "Time at CPA"
+msgstr "Zeitpunkt der kleinsten Annäherung"
+
+#: radar.c:6006 radar.c:6070
+msgid "BCR:"
+msgstr "BCR:"
+
+#: radar.c:6008 radar.c:6072
+msgid "Bow Crossing Range"
+msgstr "Passierabstand auf der Kurslinie (Bow Crossing Range)"
+
+#: radar.c:6010 radar.c:6074
+msgid "BCT:"
+msgstr "BCT:"
+
+#: radar.c:6012 radar.c:6076
+msgid "Time to Bow Crossing in Minutes"
+msgstr "Zeit bis zum Passieren der Kurslinie in Minuten (Bow Crossing Time)"
+
+#: radar.c:6016 radar.c:6080
+msgid "Time at Bow Crossing"
+msgstr "Zeitpunkt des Passierens der Kurslinie"
+
+#: radar.c:6019
+msgid "after Maneuver"
+msgstr "nach Manöver"
+
+#: radar.c:6038
+msgid "delta:"
+msgstr "delta:"
+
+#: radar.c:6040
+msgid "Change in Direction of Relative Motion"
+msgstr "Echoknick"
+
+#: radar.c:6044
+#, c-format
+msgid "Relative Bearing to Target %c"
+msgstr "Radar-Seitenpeilung zum Gegner %c"
+
+#: radar.c:6147 register.c:743
+#, c-format
+msgid "brainaid Radarplot (unregistered)"
+msgstr "brainaid Radarplot (nicht registriert)"
+
+#: radar.c:6240 print.c:178
+msgid "Radar Settings"
+msgstr "Radar-Einstellungen"
+
+#: radar.c:6251
+msgid "Orientation:"
+msgstr "Orientierung:"
+
+#: radar.c:6263 print.c:870
+msgid "North Up"
+msgstr "North Up"
+
+#: radar.c:6264 print.c:870
+msgid "Head Up"
+msgstr "Head Up"
+
+#: radar.c:6277
+msgid "Range:"
+msgstr "Bereich:"
+
+#: radar.c:6294
+msgid "Range in Nautical Miles"
+msgstr "Entfernungsbereich in Seemeilen"
+
+#: radar.c:6301
+msgid "Heading Line:"
+msgstr "Kurslinie:"
+
+#: radar.c:6312
+msgid "_HL"
+msgstr "_HL"
+
+#.
+#. * Preselections (Own Ship):
+#.
+#: radar.c:6328 print.c:185
+msgid "Own Ship"
+msgstr "Eigenes Schiff"
+
+#: radar.c:6339 radar.c:6596
+msgid "T CRS:"
+msgstr "KA (rwK):"
+
+#: radar.c:6355
+msgid "True Course of Own Ship"
+msgstr "Rechtweisender Kurs des eigenen Schiffs"
+
+#: radar.c:6361 radar.c:6631
+msgid "SPD (STW):"
+msgstr "vA (FdW):"
+
+#: radar.c:6378
+msgid "Speed Through Water of Own Ship"
+msgstr "Fahrt durchs Wasser des eigenen Schiffs"
+
+#: radar.c:6412 print.c:248
+msgid "Maneuver"
+msgstr "Manöver"
+
+#: radar.c:6427
+msgid "Target:"
+msgstr "Gegner:"
+
+#: radar.c:6479
+msgid "Time of Maneuver"
+msgstr "Manöverzeit"
+
+#: radar.c:6485
+msgid "Projected Time of Maneuver"
+msgstr "Geplante Manöverzeit"
+
+#: radar.c:6510
+msgid "Distance to Target at Maneuver"
+msgstr "Abstand zum Gegner bei Manöver"
+
+#: radar.c:6518
+msgid "Projected Distance to Target at Maneuver"
+msgstr "Geplanter Abstand zum Gegner bei Manöver"
+
+#: radar.c:6532
+msgid "Maneuver:"
+msgstr "Manöver:"
+
+#: radar.c:6545
+msgid "Course Change"
+msgstr "Kursänderung"
+
+#: radar.c:6546
+msgid "Speed Change"
+msgstr "Fahrtänderung"
+
+#: radar.c:6583
+msgid "CPA after Maneuver"
+msgstr "CPA nach Manöver"
+
+#: radar.c:6589
+msgid "Projected CPA to Target"
+msgstr "Beabsichtigter CPA zum Gegner"
+
+#: radar.c:6616
+msgid "True Course of Own Ship after Maneuver"
+msgstr "Rechtweisender Kurs des eigenen Schiffs nach Manöver"
+
+#: radar.c:6624
+msgid "Projected True Course of Own Ship after Maneuver"
+msgstr "Trial-Manöver mit Kursänderung"
+
+#: radar.c:6652
+msgid "Speed through Water of Own Ship after Maneuver"
+msgstr "Fahrt durchs Wasser des eigenen Schiffs nach Manöver"
+
+#: radar.c:6658
+msgid "Projected Speed through Water of Own Ship after Maneuver"
+msgstr "Trial-Manöver mit Fahrtänderung"
+
+#: print.c:41
+msgid "DIN A4"
+msgstr "DIN A4"
+
+#: print.c:42
+msgid "DIN A3"
+msgstr "DIN A3"
+
+#: print.c:43
+msgid "ANSI-A (Letter)"
+msgstr "ANSI-A (Letter)"
+
+#: print.c:44
+msgid "ANSI-B (Ledger)"
+msgstr "ANSI-B (Ledger)"
+
+#: print.c:179
+msgid "Orientation (Course/North Up)"
+msgstr "Orientierung (Course/North Up)"
+
+#: print.c:181
+msgid "Range"
+msgstr "Bereich"
+
+#: print.c:181 print.c:203 print.c:213 print.c:230 print.c:240 print.c:251
+#: print.c:258 print.c:277 print.c:287
+msgid "nm"
+msgstr "sm"
+
+#: print.c:186
+msgid "T CRS"
+msgstr "KA (rwK)"
+
+#: print.c:186 print.c:197 print.c:199 print.c:201 print.c:207 print.c:209
+#: print.c:211 print.c:220 print.c:224 print.c:228 print.c:232 print.c:234
+#: print.c:253 print.c:260 print.c:267 print.c:271 print.c:273 print.c:275
+#: print.c:279 print.c:281
+msgid "°"
+msgstr "°"
+
+#: print.c:188
+msgid "SPD (STW)"
+msgstr "vA (FdW)"
+
+#: print.c:188 print.c:222 print.c:226 print.c:262 print.c:269
+msgid "kn"
+msgstr "kn"
+
+#: print.c:193
+msgid "Target"
+msgstr "Gegner"
+
+#: print.c:195 print.c:205 print.c:249
+msgid "Time"
+msgstr "Zeit"
+
+#: print.c:195 print.c:205 print.c:238 print.c:244 print.c:249 print.c:285
+#: print.c:291
+msgid "Clock"
+msgstr "Uhr"
+
+#: print.c:197 print.c:207 print.c:273
+msgid "R BRG to Target"
+msgstr "RaSP"
+
+#: print.c:199 print.c:209
+msgid "at T HDG of Own Ship"
+msgstr "bei rwK"
+
+#: print.c:201 print.c:211 print.c:253
+msgid "T BRG to Target"
+msgstr "RaKrP"
+
+#: print.c:203 print.c:213 print.c:251
+msgid "Distance"
+msgstr "Abstand"
+
+#: print.c:218
+msgid "Observation Interval"
+msgstr "Beobachtungsinterval"
+
+#: print.c:218 print.c:236 print.c:242 print.c:283 print.c:289
+msgid "min"
+msgstr "min"
+
+#: print.c:220 print.c:267
+msgid "DRM of Target"
+msgstr "KBr"
+
+#: print.c:222 print.c:269
+msgid "SRM of Target"
+msgstr "vBr"
+
+#: print.c:224
+msgid "T CRS of Target"
+msgstr "KB"
+
+#: print.c:226
+msgid "T SPD of Target"
+msgstr "vB"
+
+#: print.c:228 print.c:275
+msgid "Aspect Angle"
+msgstr "Aspekt (RaSP von B nach A)"
+
+#: print.c:230 print.c:277
+msgid "Range at CPA"
+msgstr "CPA"
+
+#: print.c:232 print.c:279
+msgid "T BRG at CPA"
+msgstr "PCPA"
+
+#: print.c:234 print.c:281
+msgid "R BRG at CPA"
+msgstr "SPCPA"
+
+#: print.c:236 print.c:283
+msgid "TCPA"
+msgstr "TCPA"
+
+#: print.c:240 print.c:287
+msgid "BCR (Bow Crossing Range)"
+msgstr "Abstand auf der Kurslinie (BCR)"
+
+#: print.c:242 print.c:289
+msgid "BCT"
+msgstr "BCT"
+
+#: print.c:256
+msgid "Maneuver (Course/Speed Change)"
+msgstr "Manöver (Kurs-/Fahrtänderung)"
+
+#: print.c:258
+msgid "new CPA"
+msgstr "neuer CPA"
+
+#: print.c:260
+msgid "new Course"
+msgstr "neuer Kurs KA"
+
+#: print.c:262
+msgid "new Speed"
+msgstr "neue Fahrt vA"
+
+#: print.c:266
+msgid "Completed Data after Maneuver"
+msgstr "Lage nach Manöver"
+
+#: print.c:271
+msgid "delta in DRM"
+msgstr "delta (Echoknick)"
+
+#: print.c:626 print.c:734
+#, c-format
+msgid "Nautical Miles"
+msgstr "Seemeilen"
+
+#: print.c:773
+#, c-format
+msgid "Minutes"
+msgstr "Minuten"
+
+#: print.c:882 print.c:2971
+#, c-format
+msgid "%.*f nm"
+msgstr "%.*f sm"
+
+#: print.c:886 print.c:1023 print.c:1129 print.c:1282 print.c:1399
+#: print.c:1494 print.c:1502 print.c:1585 print.c:1810 print.c:1927
+#: print.c:2975
+#, c-format
+msgid "%.1f nm"
+msgstr "%.1f sm"
+
+#: print.c:896 print.c:959 print.c:980 print.c:1002 print.c:1065 print.c:1086
+#: print.c:1108
+#, c-format
+msgid "%03u°"
+msgstr "%03u°"
+
+#: print.c:910 print.c:1195 print.c:1240 print.c:1662 print.c:1669
+#: print.c:1715
+#, c-format
+msgid "%.1f kn"
+msgstr "%.1f kn"
+
+#: print.c:1150
+#, c-format
+msgid "%u min"
+msgstr "%u min"
+
+#: print.c:1174 print.c:1219 print.c:1261 print.c:1306 print.c:1330
+#: print.c:1524 print.c:1617 print.c:1623 print.c:1694 print.c:1834
+#: print.c:1858
+#, c-format
+msgid "%05.1f°"
+msgstr "%05.1f°"
+
+#: print.c:1354 print.c:1420 print.c:1882 print.c:1948
+#, c-format
+msgid "%.1f min"
+msgstr "%.1f min"
+
+#: print.c:1497 print.c:1577
+#, c-format
+msgid "%c %.1f nm"
+msgstr "%c %.1f sm"
+
+#: print.c:1549
+msgid "Course"
+msgstr "Kurs"
+
+#: print.c:1549
+msgid "Speed"
+msgstr "Fahrt"
+
+#: print.c:1614
+#, c-format
+msgid "%05.1f° (!)"
+msgstr "%05.1f° (!)"
+
+#: print.c:1626
+#, c-format
+msgid "%c %05.1f°"
+msgstr "%c %05.1f°"
+
+#: print.c:1659
+#, c-format
+msgid "%.1f kn (!)"
+msgstr "%.1f kn (!)"
+
+#: print.c:1665
+#, c-format
+msgid "%c %.1f kn"
+msgstr "%c %.1f kn"
+
+#: print.c:1736 print.c:1757 print.c:1778
+#, c-format
+msgid "%.1f°"
+msgstr "%.1f°"
+
+#: print.c:1803
+#, c-format
+msgid "%.1f nm (!)"
+msgstr "%.1f sm (!)"
+
+#: print.c:2526
+#, c-format
+msgid "Radarplot %u.%u.%u (unregistered)"
+msgstr "Radarplot %u.%u.%u (nicht registriert)"
+
+#: print.c:3237
+msgid "Width:"
+msgstr "Breite:"
+
+#: print.c:3245
+msgid "Width of Image in Pixels"
+msgstr "Breite der Grafik in Pixeln"
+
+#: print.c:3253
+msgid "Height:"
+msgstr "Höhe:"
+
+#: print.c:3261
+msgid "Height of Image in Pixels"
+msgstr "Höhe der Grafik in Pixeln"
+
+#: print.c:3271
+msgid "Keep Aspect Ratio"
+msgstr "Seitenverhältnis beibehalten"
+
+#: print.c:3273
+msgid "Keep fixed ratio of width and height of image"
+msgstr "Verhältnis von Breite zu Höhe der Grafik beibehalten"
+
+#: print.c:3309
+msgid "Save as JPEG Image"
+msgstr "Als JPEG Grafik speichern"
+
+#: print.c:3325
+msgid "JPEG Files"
+msgstr "JPEG Dateien"
+
+#: print.c:3335
+msgid "JPEG Quality:"
+msgstr "JPEG Qualität:"
+
+#: print.c:3342
+msgid "JPEG Quality in percent (0 - 100)"
+msgstr "JPEG Qualität in Prozent (0 - 100)"
+
+#: print.c:3404
+msgid "Save as PNG Image"
+msgstr "Als PNG Grafik speichern"
+
+#: print.c:3419
+msgid "PNG Files"
+msgstr "PNG Dateien"
+
+#: print.c:3485
+msgid "Print to PDF File"
+msgstr "In PDF Datei drucken"
+
+#: print.c:3500
+msgid "PDF Files"
+msgstr "PDF Dateien"
+
+#: print.c:3514
+msgid "Papersize:"
+msgstr "Papierformat:"
+
+#: print.c:3531
+msgid "Color"
+msgstr "Farbe"
+
+#: print.c:3548
+msgid "Black/White"
+msgstr "Schwarz/Weiss"
+
+#: register.c:450
+#, c-format
+msgid ""
+"Your data has been successfully sent to the brainaid License Server. The "
+"license will be send to you by E-Mail to <%s>."
+msgstr ""
+"Ihre Daten wurden erfolgreich an den brainaid License Server übertragen. Die "
+"Lizenz wird Ihnen per E-Mail an <%s> zugestellt."
+
+#: register.c:458
+#, c-format
+msgid "Error talking to the brainaid License Server: %u"
+msgstr "Fehler bei der Verbindung zum brainaid License Server: %u"
+
+#: register.c:596
+msgid "Register Radarplot"
+msgstr "Radarplot Registrierung"
+
+#: register.c:620
+#, c-format
+msgid ""
+"Please enter your data in the fields below and send\n"
+"it to the brainaid License Server by clicking on \"OK\".\n"
+"Fields with %s must be filled in.\n"
+msgstr ""
+"Bitte tragen Sie Ihre Daten in die Felder unten ein und schicken\n"
+"Sie diese durch Klick auf \"OK\" an den brainaid License Server.\n"
+"Felder mit %s müssen ausgefüllt sein.\n"
+
+#: register.c:633
+msgid "Company:"
+msgstr "Firma:"
+
+#: register.c:636
+#, c-format
+msgid "Name %s:"
+msgstr "Name %s:"
+
+#: register.c:639
+msgid "Address:"
+msgstr "Adresse:"
+
+#: register.c:648
+msgid "ZIP:"
+msgstr "PLZ:"
+
+#: register.c:650
+msgid "City:"
+msgstr "Ort:"
+
+#: register.c:654
+msgid "Country:"
+msgstr "Land:"
+
+#: register.c:656
+#, c-format
+msgid "E-Mail %s:"
+msgstr "E-Mail %s:"
+
+#: register.c:664
+msgid "Latitude:"
+msgstr "Breite (Latitude):"
+
+#: register.c:666
+msgid "Longitude:"
+msgstr "Länge (Longitude):"
+
+#: register.c:690
+msgid "Configure License"
+msgstr "Lizenz einrichten"
+
+#: register.c:705
+msgid "License Files"
+msgstr "Lizenz Dateien"
+
+#: register.c:738
+#, c-format
+msgid "brainaid Radarplot (%.64s)"
+msgstr "brainaid Radarplot (%.64s)"

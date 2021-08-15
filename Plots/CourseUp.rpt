@@ -1,0 +1,29 @@
+[Radar]
+Orientation=1
+Range=3
+Heading=true
+[Own Ship]
+Course=127
+Speed=8.0
+[Opponent B]
+Time(0)=1110
+SideBearing(0)=true
+RaSP(0)=30
+CourseSP(0)=127
+RaKrP(0)=157
+Distance(0)=6.0
+Time(1)=1120
+SideBearing(1)=true
+RaSP(1)=30
+CourseSP(1)=126
+RaKrP(1)=156
+Distance(1)=4.0
+[Maneuver]
+ByTime=false
+Time=1123
+Distance=3.5
+Type=0
+ByCPA=true
+CPA=2.0
+Course=184.0
+Speed=8.0

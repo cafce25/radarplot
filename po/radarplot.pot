@@ -1,0 +1,881 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Eddie C. Dost <ecd@brainaid.de>
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: ecd@brainaid.de\n"
+"POT-Creation-Date: 2017-01-31 10:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: radar.c:209
+msgid "translator-credits"
+msgstr ""
+
+#: radar.c:290
+msgid "Radarplot Files"
+msgstr ""
+
+#: radar.c:296 register.c:710
+msgid "All Files"
+msgstr ""
+
+#: radar.c:712 radar.c:996
+msgid "Load radarplot from file"
+msgstr ""
+
+#: radar.c:872 radar.c:1001 radar.c:1006
+msgid "Save radarplot to file"
+msgstr ""
+
+#: radar.c:985
+msgid "_File"
+msgstr ""
+
+#: radar.c:989
+msgid "_New"
+msgstr ""
+
+#: radar.c:990
+msgid "Start new radarplot"
+msgstr ""
+
+#: radar.c:995
+msgid "_Open..."
+msgstr ""
+
+#: radar.c:1000
+msgid "_Save..."
+msgstr ""
+
+#: radar.c:1005
+msgid "Save _as..."
+msgstr ""
+
+#: radar.c:1011
+msgid "E_xport as"
+msgstr ""
+
+#: radar.c:1015
+msgid "_JPEG Image"
+msgstr ""
+
+#: radar.c:1016
+msgid "Save radarplot as JPEG image"
+msgstr ""
+
+#: radar.c:1020
+msgid "_PNG Image"
+msgstr ""
+
+#: radar.c:1021
+msgid "Save radarplot as PNG image"
+msgstr ""
+
+#: radar.c:1026
+msgid "_Print as PDF"
+msgstr ""
+
+#: radar.c:1027
+msgid "Print radarplot to PDF file"
+msgstr ""
+
+#: radar.c:1032
+msgid "_Exit"
+msgstr ""
+
+#: radar.c:1033
+msgid "Exit from radarplot program"
+msgstr ""
+
+#: radar.c:1038
+msgid "_Preferences"
+msgstr ""
+
+#: radar.c:1042
+msgid "E_xtra"
+msgstr ""
+
+#: radar.c:1046
+msgid "_Register"
+msgstr ""
+
+#: radar.c:1047
+msgid "Register radarplot program"
+msgstr ""
+
+#: radar.c:1051
+msgid "Configure _License"
+msgstr ""
+
+#: radar.c:1052
+msgid "Configure radarplot license file"
+msgstr ""
+
+#: radar.c:1057
+msgid "_Help"
+msgstr ""
+
+#: radar.c:1061
+msgid "_About Radarplot"
+msgstr ""
+
+#: radar.c:1062
+msgid "Information about radarplot program"
+msgstr ""
+
+#: radar.c:1071 radar.c:6320
+msgid "Show Heading Line"
+msgstr ""
+
+#: radar.c:1072
+msgid "Display Heading Line in radarplot"
+msgstr ""
+
+#: radar.c:1077
+msgid "True Bearings"
+msgstr ""
+
+#: radar.c:1078
+msgid "Default entries are True Bearings"
+msgstr ""
+
+#: radar.c:1083
+msgid "Antialias"
+msgstr ""
+
+#: radar.c:1084
+msgid "Draw vectors using antialiasing filter"
+msgstr ""
+
+#: radar.c:5318
+msgid "North Stabilized or Head Up Display"
+msgstr ""
+
+#: radar.c:5337
+msgid "Target for Maneuver Calculations"
+msgstr ""
+
+#: radar.c:5355
+msgid "Course or Speed Change"
+msgstr ""
+
+#: radar.c:5624 radar.c:6441
+#, c-format
+msgid "Target %c"
+msgstr ""
+
+#: radar.c:5630 print.c:192
+msgid "Observations"
+msgstr ""
+
+#: radar.c:5645 radar.c:5804 radar.c:6455
+msgid "Time:"
+msgstr ""
+
+#: radar.c:5661
+msgid "1. Time of Observation"
+msgstr ""
+
+#: radar.c:5667 radar.c:5826 radar.c:6042
+msgid "R BRG:"
+msgstr ""
+
+#: radar.c:5693 radar.c:5699
+msgid "1. Relative Bearing to Target"
+msgstr ""
+
+#: radar.c:5705 radar.c:5864
+msgid "at T HDG:"
+msgstr ""
+
+#: radar.c:5723 radar.c:5730
+msgid "Own Ships Heading at 1. Relative Bearing"
+msgstr ""
+
+#: radar.c:5737 radar.c:5896
+msgid "T BRG:"
+msgstr ""
+
+#: radar.c:5756 radar.c:5763
+msgid "1. True Bearing to Target"
+msgstr ""
+
+#: radar.c:5769 radar.c:5928 radar.c:6491
+msgid "Distance:"
+msgstr ""
+
+#: radar.c:5786
+msgid "1. Distance to Target in Nautical Miles"
+msgstr ""
+
+#: radar.c:5820
+msgid "2. Time of Observation"
+msgstr ""
+
+#: radar.c:5852 radar.c:5858
+msgid "2. Relative Bearing to Target"
+msgstr ""
+
+#: radar.c:5882 radar.c:5889
+msgid "Own Ships Heading at 2. Relative Bearing"
+msgstr ""
+
+#: radar.c:5915 radar.c:5922
+msgid "2. True Bearing to Target"
+msgstr ""
+
+#: radar.c:5945
+msgid "2. Distance to Target in Nautical Miles"
+msgstr ""
+
+#: radar.c:5952 print.c:217
+msgid "Completed Data"
+msgstr ""
+
+#: radar.c:5966 radar.c:6030
+#, c-format
+msgid "DRM %c:"
+msgstr ""
+
+#: radar.c:5968 radar.c:6032
+#, c-format
+msgid "Direction of Relative Motion of %c"
+msgstr ""
+
+#: radar.c:5970 radar.c:6034
+#, c-format
+msgid "SRM %c:"
+msgstr ""
+
+#: radar.c:5972 radar.c:6036
+#, c-format
+msgid "Speed of Relative Motion of %c"
+msgstr ""
+
+#: radar.c:5974
+#, c-format
+msgid "T CRS %c:"
+msgstr ""
+
+#: radar.c:5976
+#, c-format
+msgid "True Course of %c"
+msgstr ""
+
+#: radar.c:5978
+#, c-format
+msgid "T SPD %c:"
+msgstr ""
+
+#: radar.c:5980
+#, c-format
+msgid "True Speed of %c"
+msgstr ""
+
+#: radar.c:5982 radar.c:6046
+#, c-format
+msgid "Aspect %c:"
+msgstr ""
+
+#: radar.c:5984 radar.c:6048
+#, c-format
+msgid "Aspect Angle (Relative Bearing to Own Ship from Target %c)"
+msgstr ""
+
+#: radar.c:5986 radar.c:6050 radar.c:6559
+msgid "CPA:"
+msgstr ""
+
+#: radar.c:5988 radar.c:6052
+msgid "Range at Closest Point of Approach"
+msgstr ""
+
+#: radar.c:5990 radar.c:6054
+msgid "T BRG CPA:"
+msgstr ""
+
+#: radar.c:5992 radar.c:6056
+msgid "True Bearing at CPA"
+msgstr ""
+
+#: radar.c:5994 radar.c:6058
+msgid "R BRG CPA:"
+msgstr ""
+
+#: radar.c:5996 radar.c:6060
+msgid "Relative Bearing at CPA"
+msgstr ""
+
+#: radar.c:5998 radar.c:6062
+msgid "TCPA:"
+msgstr ""
+
+#: radar.c:6000 radar.c:6064
+msgid "Time to CPA in Minutes"
+msgstr ""
+
+#: radar.c:6004 radar.c:6068
+msgid "Time at CPA"
+msgstr ""
+
+#: radar.c:6006 radar.c:6070
+msgid "BCR:"
+msgstr ""
+
+#: radar.c:6008 radar.c:6072
+msgid "Bow Crossing Range"
+msgstr ""
+
+#: radar.c:6010 radar.c:6074
+msgid "BCT:"
+msgstr ""
+
+#: radar.c:6012 radar.c:6076
+msgid "Time to Bow Crossing in Minutes"
+msgstr ""
+
+#: radar.c:6016 radar.c:6080
+msgid "Time at Bow Crossing"
+msgstr ""
+
+#: radar.c:6019
+msgid "after Maneuver"
+msgstr ""
+
+#: radar.c:6038
+msgid "delta:"
+msgstr ""
+
+#: radar.c:6040
+msgid "Change in Direction of Relative Motion"
+msgstr ""
+
+#: radar.c:6044
+#, c-format
+msgid "Relative Bearing to Target %c"
+msgstr ""
+
+#: radar.c:6147 register.c:743
+#, c-format
+msgid "brainaid Radarplot (unregistered)"
+msgstr ""
+
+#: radar.c:6240 print.c:178
+msgid "Radar Settings"
+msgstr ""
+
+#: radar.c:6251
+msgid "Orientation:"
+msgstr ""
+
+#: radar.c:6263 print.c:870
+msgid "North Up"
+msgstr ""
+
+#: radar.c:6264 print.c:870
+msgid "Head Up"
+msgstr ""
+
+#: radar.c:6277
+msgid "Range:"
+msgstr ""
+
+#: radar.c:6294
+msgid "Range in Nautical Miles"
+msgstr ""
+
+#: radar.c:6301
+msgid "Heading Line:"
+msgstr ""
+
+#: radar.c:6312
+msgid "_HL"
+msgstr ""
+
+#.
+#. * Preselections (Own Ship):
+#.
+#: radar.c:6328 print.c:185
+msgid "Own Ship"
+msgstr ""
+
+#: radar.c:6339 radar.c:6596
+msgid "T CRS:"
+msgstr ""
+
+#: radar.c:6355
+msgid "True Course of Own Ship"
+msgstr ""
+
+#: radar.c:6361 radar.c:6631
+msgid "SPD (STW):"
+msgstr ""
+
+#: radar.c:6378
+msgid "Speed Through Water of Own Ship"
+msgstr ""
+
+#: radar.c:6412 print.c:248
+msgid "Maneuver"
+msgstr ""
+
+#: radar.c:6427
+msgid "Target:"
+msgstr ""
+
+#: radar.c:6479
+msgid "Time of Maneuver"
+msgstr ""
+
+#: radar.c:6485
+msgid "Projected Time of Maneuver"
+msgstr ""
+
+#: radar.c:6510
+msgid "Distance to Target at Maneuver"
+msgstr ""
+
+#: radar.c:6518
+msgid "Projected Distance to Target at Maneuver"
+msgstr ""
+
+#: radar.c:6532
+msgid "Maneuver:"
+msgstr ""
+
+#: radar.c:6545
+msgid "Course Change"
+msgstr ""
+
+#: radar.c:6546
+msgid "Speed Change"
+msgstr ""
+
+#: radar.c:6583
+msgid "CPA after Maneuver"
+msgstr ""
+
+#: radar.c:6589
+msgid "Projected CPA to Target"
+msgstr ""
+
+#: radar.c:6616
+msgid "True Course of Own Ship after Maneuver"
+msgstr ""
+
+#: radar.c:6624
+msgid "Projected True Course of Own Ship after Maneuver"
+msgstr ""
+
+#: radar.c:6652
+msgid "Speed through Water of Own Ship after Maneuver"
+msgstr ""
+
+#: radar.c:6658
+msgid "Projected Speed through Water of Own Ship after Maneuver"
+msgstr ""
+
+#: print.c:41
+msgid "DIN A4"
+msgstr ""
+
+#: print.c:42
+msgid "DIN A3"
+msgstr ""
+
+#: print.c:43
+msgid "ANSI-A (Letter)"
+msgstr ""
+
+#: print.c:44
+msgid "ANSI-B (Ledger)"
+msgstr ""
+
+#: print.c:179
+msgid "Orientation (Course/North Up)"
+msgstr ""
+
+#: print.c:181
+msgid "Range"
+msgstr ""
+
+#: print.c:181 print.c:203 print.c:213 print.c:230 print.c:240 print.c:251
+#: print.c:258 print.c:277 print.c:287
+msgid "nm"
+msgstr ""
+
+#: print.c:186
+msgid "T CRS"
+msgstr ""
+
+#: print.c:186 print.c:197 print.c:199 print.c:201 print.c:207 print.c:209
+#: print.c:211 print.c:220 print.c:224 print.c:228 print.c:232 print.c:234
+#: print.c:253 print.c:260 print.c:267 print.c:271 print.c:273 print.c:275
+#: print.c:279 print.c:281
+msgid "°"
+msgstr ""
+
+#: print.c:188
+msgid "SPD (STW)"
+msgstr ""
+
+#: print.c:188 print.c:222 print.c:226 print.c:262 print.c:269
+msgid "kn"
+msgstr ""
+
+#: print.c:193
+msgid "Target"
+msgstr ""
+
+#: print.c:195 print.c:205 print.c:249
+msgid "Time"
+msgstr ""
+
+#: print.c:195 print.c:205 print.c:238 print.c:244 print.c:249 print.c:285
+#: print.c:291
+msgid "Clock"
+msgstr ""
+
+#: print.c:197 print.c:207 print.c:273
+msgid "R BRG to Target"
+msgstr ""
+
+#: print.c:199 print.c:209
+msgid "at T HDG of Own Ship"
+msgstr ""
+
+#: print.c:201 print.c:211 print.c:253
+msgid "T BRG to Target"
+msgstr ""
+
+#: print.c:203 print.c:213 print.c:251
+msgid "Distance"
+msgstr ""
+
+#: print.c:218
+msgid "Observation Interval"
+msgstr ""
+
+#: print.c:218 print.c:236 print.c:242 print.c:283 print.c:289
+msgid "min"
+msgstr ""
+
+#: print.c:220 print.c:267
+msgid "DRM of Target"
+msgstr ""
+
+#: print.c:222 print.c:269
+msgid "SRM of Target"
+msgstr ""
+
+#: print.c:224
+msgid "T CRS of Target"
+msgstr ""
+
+#: print.c:226
+msgid "T SPD of Target"
+msgstr ""
+
+#: print.c:228 print.c:275
+msgid "Aspect Angle"
+msgstr ""
+
+#: print.c:230 print.c:277
+msgid "Range at CPA"
+msgstr ""
+
+#: print.c:232 print.c:279
+msgid "T BRG at CPA"
+msgstr ""
+
+#: print.c:234 print.c:281
+msgid "R BRG at CPA"
+msgstr ""
+
+#: print.c:236 print.c:283
+msgid "TCPA"
+msgstr ""
+
+#: print.c:240 print.c:287
+msgid "BCR (Bow Crossing Range)"
+msgstr ""
+
+#: print.c:242 print.c:289
+msgid "BCT"
+msgstr ""
+
+#: print.c:256
+msgid "Maneuver (Course/Speed Change)"
+msgstr ""
+
+#: print.c:258
+msgid "new CPA"
+msgstr ""
+
+#: print.c:260
+msgid "new Course"
+msgstr ""
+
+#: print.c:262
+msgid "new Speed"
+msgstr ""
+
+#: print.c:266
+msgid "Completed Data after Maneuver"
+msgstr ""
+
+#: print.c:271
+msgid "delta in DRM"
+msgstr ""
+
+#: print.c:626 print.c:734
+#, c-format
+msgid "Nautical Miles"
+msgstr ""
+
+#: print.c:773
+#, c-format
+msgid "Minutes"
+msgstr ""
+
+#: print.c:882 print.c:2971
+#, c-format
+msgid "%.*f nm"
+msgstr ""
+
+#: print.c:886 print.c:1023 print.c:1129 print.c:1282 print.c:1399
+#: print.c:1494 print.c:1502 print.c:1585 print.c:1810 print.c:1927
+#: print.c:2975
+#, c-format
+msgid "%.1f nm"
+msgstr ""
+
+#: print.c:896 print.c:959 print.c:980 print.c:1002 print.c:1065 print.c:1086
+#: print.c:1108
+#, c-format
+msgid "%03u°"
+msgstr ""
+
+#: print.c:910 print.c:1195 print.c:1240 print.c:1662 print.c:1669
+#: print.c:1715
+#, c-format
+msgid "%.1f kn"
+msgstr ""
+
+#: print.c:1150
+#, c-format
+msgid "%u min"
+msgstr ""
+
+#: print.c:1174 print.c:1219 print.c:1261 print.c:1306 print.c:1330
+#: print.c:1524 print.c:1617 print.c:1623 print.c:1694 print.c:1834
+#: print.c:1858
+#, c-format
+msgid "%05.1f°"
+msgstr ""
+
+#: print.c:1354 print.c:1420 print.c:1882 print.c:1948
+#, c-format
+msgid "%.1f min"
+msgstr ""
+
+#: print.c:1497 print.c:1577
+#, c-format
+msgid "%c %.1f nm"
+msgstr ""
+
+#: print.c:1549
+msgid "Course"
+msgstr ""
+
+#: print.c:1549
+msgid "Speed"
+msgstr ""
+
+#: print.c:1614
+#, c-format
+msgid "%05.1f° (!)"
+msgstr ""
+
+#: print.c:1626
+#, c-format
+msgid "%c %05.1f°"
+msgstr ""
+
+#: print.c:1659
+#, c-format
+msgid "%.1f kn (!)"
+msgstr ""
+
+#: print.c:1665
+#, c-format
+msgid "%c %.1f kn"
+msgstr ""
+
+#: print.c:1736 print.c:1757 print.c:1778
+#, c-format
+msgid "%.1f°"
+msgstr ""
+
+#: print.c:1803
+#, c-format
+msgid "%.1f nm (!)"
+msgstr ""
+
+#: print.c:2526
+#, c-format
+msgid "Radarplot %u.%u.%u (unregistered)"
+msgstr ""
+
+#: print.c:3237
+msgid "Width:"
+msgstr ""
+
+#: print.c:3245
+msgid "Width of Image in Pixels"
+msgstr ""
+
+#: print.c:3253
+msgid "Height:"
+msgstr ""
+
+#: print.c:3261
+msgid "Height of Image in Pixels"
+msgstr ""
+
+#: print.c:3271
+msgid "Keep Aspect Ratio"
+msgstr ""
+
+#: print.c:3273
+msgid "Keep fixed ratio of width and height of image"
+msgstr ""
+
+#: print.c:3309
+msgid "Save as JPEG Image"
+msgstr ""
+
+#: print.c:3325
+msgid "JPEG Files"
+msgstr ""
+
+#: print.c:3335
+msgid "JPEG Quality:"
+msgstr ""
+
+#: print.c:3342
+msgid "JPEG Quality in percent (0 - 100)"
+msgstr ""
+
+#: print.c:3404
+msgid "Save as PNG Image"
+msgstr ""
+
+#: print.c:3419
+msgid "PNG Files"
+msgstr ""
+
+#: print.c:3485
+msgid "Print to PDF File"
+msgstr ""
+
+#: print.c:3500
+msgid "PDF Files"
+msgstr ""
+
+#: print.c:3514
+msgid "Papersize:"
+msgstr ""
+
+#: print.c:3531
+msgid "Color"
+msgstr ""
+
+#: print.c:3548
+msgid "Black/White"
+msgstr ""
+
+#: register.c:450
+#, c-format
+msgid ""
+"Your data has been successfully sent to the brainaid License Server. The "
+"license will be send to you by E-Mail to <%s>."
+msgstr ""
+
+#: register.c:458
+#, c-format
+msgid "Error talking to the brainaid License Server: %u"
+msgstr ""
+
+#: register.c:596
+msgid "Register Radarplot"
+msgstr ""
+
+#: register.c:620
+#, c-format
+msgid ""
+"Please enter your data in the fields below and send\n"
+"it to the brainaid License Server by clicking on \"OK\".\n"
+"Fields with %s must be filled in.\n"
+msgstr ""
+
+#: register.c:633
+msgid "Company:"
+msgstr ""
+
+#: register.c:636
+#, c-format
+msgid "Name %s:"
+msgstr ""
+
+#: register.c:639
+msgid "Address:"
+msgstr ""
+
+#: register.c:648
+msgid "ZIP:"
+msgstr ""
+
+#: register.c:650
+msgid "City:"
+msgstr ""
+
+#: register.c:654
+msgid "Country:"
+msgstr ""
+
+#: register.c:656
+#, c-format
+msgid "E-Mail %s:"
+msgstr ""
+
+#: register.c:664
+msgid "Latitude:"
+msgstr ""
+
+#: register.c:666
+msgid "Longitude:"
+msgstr ""
+
+#: register.c:690
+msgid "Configure License"
+msgstr ""
+
+#: register.c:705
+msgid "License Files"
+msgstr ""
+
+#: register.c:738
+#, c-format
+msgid "brainaid Radarplot (%.64s)"
+msgstr ""
