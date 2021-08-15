@@ -12,7 +12,7 @@ LANGUAGES = de
 
 CATALOGS = $(patsubst %,%.po,$(LANGUAGES))
 
-POTFILES = radar.c print.c register.c
+POTFILES = radar.c print.c
 VPATH = ..
 
 all: $(CATALOGS)

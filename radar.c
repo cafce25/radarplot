@@ -49,7 +49,6 @@
 
 #include "radar.h"
 #include "license.h"
-#include "register.h"
 
 #include "radar16x16.h"
 #include "radar32x32.h"
@@ -1038,21 +1037,6 @@ static GtkActionEntry ui_entries[] =
 	  N_("_Preferences")
 	},
 
-	{ "ExtraMenu",			NULL,
-	  N_("E_xtra")
-	},
-
-		{ "Register",			NULL,
-		  N_("_Register"),		NULL,
-		  N_("Register radarplot program"),
-		  G_CALLBACK(radar_register)
-		},
-		{ "License",			NULL,
-		  N_("Configure _License"),	NULL,
-		  N_("Configure radarplot license file"),
-		  G_CALLBACK(radar_license)
-		},
-
 	{ "HelpMenu",			NULL,
 	  N_("_Help")
 	},
@@ -1111,10 +1095,6 @@ static const gchar *ui_info =
 "      <menuitem action='Heading'/>"
 "      <menuitem action='Bearing'/>"
 "      <menuitem action='Render'/>"
-"    </menu>"
-"    <menu action='ExtraMenu'>"
-"      <menuitem action='Register'/>"
-"      <menuitem action='License'/>"
 "    </menu>"
 "    <menu action='HelpMenu'>"
 "      <menuitem action='About'/>"
@@ -6137,15 +6117,7 @@ radar_create_window(radar_t *radar)
 
 	radar->tooltips = gtk_tooltips_new();
 
-	if (radar->license) {
-		snprintf(title, sizeof(title), "brainaid Radarplot (%.64s)",
-			g_key_file_get_string(radar->license,
-					      "Radarplot License",
-					      "name", NULL));
-	} else {
-		snprintf(title, sizeof(title),
-			 _("brainaid Radarplot (unregistered)"));
-	}
+	snprintf(title, sizeof(title), _("brainaid Radarplot"));
 
 	gtk_window_set_title(GTK_WINDOW(radar->window), title);
 
@@ -6878,14 +6850,13 @@ out1:
 static void
 radar_load_config(radar_t *radar, const char *filename)
 {
-	gchar *path, *lpath;
+	gchar *path;
 	gboolean bvalue;
 	GError *error;
 
 	radar->do_render = TRUE;
 	radar->default_heading = TRUE;
 	radar->default_rakrp = FALSE;
-	radar->license_pathname = NULL;
 
 	path = g_build_filename(g_get_home_dir(), filename, NULL);
 	if (NULL == path)
@@ -6924,20 +6895,6 @@ radar_load_config(radar_t *radar, const char *filename)
 		radar->default_rakrp = bvalue;
 
 	error = NULL;
-	lpath = g_key_file_get_string(radar->key_file,
-				      "Radarplot", "License",
-				      &error);
-	if (NULL == error)
-		radar->license_pathname = lpath;
-
-	if (radar->license) {
-		g_key_file_free(radar->license);
-		radar->license = NULL;
-	}
-
-	if (radar->license_pathname)
-		verify_registration_file(radar->license_pathname,
-					 &radar->license);
 
 out:
 	g_free(path);

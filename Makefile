@@ -55,7 +55,7 @@ CFLAGS += -DRADAR_MAJOR=$(RADAR_MAJOR) \
 
 RELEASE = radarplot-$(RADAR_MAJOR).$(RADAR_MINOR).$(RADAR_PATCHLEVEL)
 
-OBJS = radar.o print.o afm.o encoding.o register.o license.o public.o
+OBJS = radar.o print.o afm.o encoding.o license.o public.o
 
 SRCS = $(patsubst %.o,%.c,$(OBJS)) icongen.c
 
@@ -159,7 +159,7 @@ release:
 	rm -rf tmp/$(RELEASE)
 	mkdir -p tmp/$(RELEASE)
 	cp radar.h radar.c print.c afm.h afm.c encoding.h encoding.c \
-		register.h register.c translation.h translation.c \
+		translation.h translation.c \
 		license.h license.c public.h public.c \
 		icongen.c COPYING ChangeLog Makefile \
 		Helvetica.afm tmp/$(RELEASE)
